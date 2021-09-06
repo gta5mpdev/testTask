@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "lib": ["es5", "es6", "esnext", "dom"],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "esnext",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "removeComments": true,    
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "preserveConstEnums": true,
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "baseUrl": "",
+        "typeRoots": ["node_modules/@altv", "node_modules/@types"],
+        "outDir": "../resources/test",
+    },
+    "include": [
+        "server/*",
+        "client/*"
+      ],
+}
